@@ -1,0 +1,530 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>{{ product.vendor }}</p>",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "text_jq7YWJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p><ul><li>Lasts up to 12 hours</li><li>Evolves into a unique scent on your skin with</li><li>100% vegan & cruelty-free</li><li>100% non-toxic, free from phthalates or harsh chemicals</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "quantity_box_QYGeEM": {
+          "type": "quantity_box",
+          "settings": {
+            "title": "Single Bottle (20ml)",
+            "subtitle": "",
+            "discount": 0,
+            "quantity": 1,
+            "is_selected": false
+          }
+        },
+        "quantity_box_prfFAQ": {
+          "type": "quantity_box",
+          "settings": {
+            "title": "Duo Pack",
+            "subtitle": "Best value option",
+            "discount": 25,
+            "quantity": 2,
+            "is_selected": true
+          }
+        },
+        "quantity_box_br3RKE": {
+          "type": "quantity_box",
+          "settings": {
+            "title": "Triple Pack",
+            "subtitle": "Premium bulk option",
+            "discount": 33,
+            "quantity": 3,
+            "is_selected": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "loox_reviews_loox_snippets_widget_RkD8R4": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "alignment": "left",
+            "max-width": "",
+            "color-scheme": "default",
+            "shadow": "",
+            "show-rating": true,
+            "show-image": true,
+            "hide-arrows-mobile": false,
+            "font-size": 14,
+            "show-border": false,
+            "border-radius": 16,
+            "background-color": "",
+            "text-color": "",
+            "name-color": "",
+            "rating-icon-color": "",
+            "border-color": "",
+            "shadow-color": "",
+            "reviews-limit": 10
+          }
+        },
+        "collapsible_tab_7YmhfT": {
+          "type": "collapsible_tab",
+          "settings": {
+            "question": "Product details",
+            "answer": "<p>Pheromone-Infused Oil Blend | 0.3 fl oz (10 ml)</p><p>Fragrance Family: Floral Oriental</p><p>Scent Profile: Warm amber base with subtle vanilla and jasmine accents</p><p>Smell description: Our formula adapts to your body chemistry, creating a unique sensual scent—light and airy or spicy and intense, with a slightly sweet, inviting touch—that draws desire effortlessly. It layers seamlessly with your favorite perfume, working with your natural pheromones to reveal your true, irresistible essence.</p><p>3X More Potent</p><p>7X More Effective</p><p>100% Risk Free.</p>",
+            "icon": "heart"
+          }
+        },
+        "collapsible_tab_rk9AnD": {
+          "type": "collapsible_tab",
+          "settings": {
+            "question": "How it works",
+            "answer": "<p>Our oil integrates with your body's natural chemistry, enhancing your own scent through pheromone compounds that replicate human signals. It adjusts to your skin's pH and unique biology, forming a custom fragrance that triggers olfactory responses in the brain—signaling attractiveness for elevated presence and real connections that amplify how others perceive your innate allure.</p>",
+            "icon": "star"
+          }
+        },
+        "collapsible_tab_AVVam9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "question": "How to use",
+            "answer": "<p>Roll on 2-3 swipes of our oil to your wrists, behind the ears, neck, and inner elbows—focusing on pulse points where body heat amplifies the scent. Gently rub together until fully absorbed for optimal blending with your skin. </p><p>Safety Disclaimer: If you experience unwanted or unsafe attention while using our Pheromone-Infused Oil Blend, discontinue use immediately and prioritize your safety. We're here to support positive experiences—contact us if needed.</p>",
+            "icon": "question_mark"
+          }
+        },
+        "collapsible_tab_fDtYG6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "question": "Shipping",
+            "answer": "",
+            "icon": "truck"
+          }
+        },
+        "collapsible_tab_yawNRA": {
+          "type": "collapsible_tab",
+          "settings": {
+            "question": "Return and refund policy",
+            "answer": "<p>We offer a 30-day money-back guarantee on our Pheromone-Infused Oil Blend, commencing upon receipt of the product. Should you be unsatisfied for any reason, please contact us at your convenience, and we will promptly process a full refund or facilitate an exchange, with no questions asked.</p>",
+            "icon": "price_tag"
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "description",
+        "text_jq7YWJ",
+        "quantity_box_QYGeEM",
+        "quantity_box_prfFAQ",
+        "quantity_box_br3RKE",
+        "buy_buttons",
+        "loox_reviews_loox_snippets_widget_RkD8R4",
+        "collapsible_tab_7YmhfT",
+        "collapsible_tab_rk9AnD",
+        "collapsible_tab_AVVam9",
+        "collapsible_tab_fDtYG6",
+        "collapsible_tab_yawNRA",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "none",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "science_backed_formula_bFxAVy": {
+      "type": "science-backed-formula",
+      "blocks": {
+        "stat_MjCjWg": {
+          "type": "stat",
+          "settings": {
+            "heading": "98%",
+            "text": "Notice increased confidence"
+          }
+        },
+        "stat_UbPKip": {
+          "type": "stat",
+          "settings": {
+            "heading": "24hrs",
+            "text": "Long-lasting effect"
+          }
+        },
+        "stat_TfNNW7": {
+          "type": "stat",
+          "settings": {
+            "heading": "Science",
+            "text": "Backed formula"
+          }
+        }
+      },
+      "block_order": [
+        "stat_MjCjWg",
+        "stat_UbPKip",
+        "stat_TfNNW7"
+      ],
+      "name": "Stats block",
+      "settings": {
+        "background_color": "#ffffff",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "testimonials_JyneJF": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_tEBmwW": {
+          "type": "testimonial",
+          "settings": {
+            "video": "shopify://files/videos/IMG_8887.MOV"
+          }
+        },
+        "statistic_baTGiF": {
+          "type": "statistic",
+          "settings": {
+            "percentage": 95,
+            "text": "Experienced the effect of our pheromone-infused scents."
+          }
+        },
+        "statistic_DmCeRz": {
+          "type": "statistic",
+          "settings": {
+            "percentage": 90,
+            "text": "Said that our scents last longer than regular perfumes."
+          }
+        },
+        "statistic_zzE9aK": {
+          "type": "statistic",
+          "settings": {
+            "percentage": 54,
+            "text": "Of customers rated our brand as the top choice among all the pheromone-inspired scents they have ever tried."
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_tEBmwW",
+        "statistic_baTGiF",
+        "statistic_DmCeRz",
+        "statistic_zzE9aK"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "slides_per_view": 1,
+        "title": "Discover your elevated potential",
+        "bottom_text": "* Results according to clinical/consumer studies. For more information refer to each product page.",
+        "button_text": "Shop now",
+        "button_url": "",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "image_with_grid_cQ6aM3": {
+      "type": "image-with-grid",
+      "blocks": {
+        "text_block_7G4H4b": {
+          "type": "text_block",
+          "settings": {
+            "icon": "shopify://shop_images/test-1231.avif",
+            "text": "<p><strong>Your Scent, Amplified </strong></p><p>Sirense creates your own personal signature scent when applied. </p>"
+          }
+        },
+        "text_block_3k9rTp": {
+          "type": "text_block",
+          "settings": {
+            "icon": "shopify://shop_images/eye.png",
+            "text": "<p><strong>Compliment Magnet </strong></p><p>Leaving a personal scent trail that gets compliment everytime.</p>"
+          }
+        },
+        "text_block_TNE6mi": {
+          "type": "text_block",
+          "settings": {
+            "icon": "shopify://shop_images/perfume-bottle.png",
+            "text": "<p><strong>Layer Your Signature</strong></p><p>Sirense blends effortlessly with your favorite perfume.</p>"
+          }
+        },
+        "text_block_zFYKBW": {
+          "type": "text_block",
+          "settings": {
+            "icon": "shopify://shop_images/day-and-night.png",
+            "text": "<p><strong>Every Moment, Every Mood</strong></p><p>Wear confidently day or night, anytime, anywhere.</p>"
+          }
+        },
+        "button_FHryyr": {
+          "type": "button",
+          "settings": {
+            "button_label": "Try Today Risk Free",
+            "button_url": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_7G4H4b",
+        "text_block_3k9rTp",
+        "text_block_TNE6mi",
+        "text_block_zFYKBW",
+        "button_FHryyr"
+      ],
+      "name": "Media with Text Grid",
+      "settings": {
+        "heading": "<h2>Turn Heads <em><strong>Everytime</strong></em></h2>",
+        "guarantee_text": "<p>30 Day Money Back Guarantee</p>",
+        "guarantee_image": "shopify://shop_images/feels_4_img.avif",
+        "heading_alignment": "left",
+        "image": "shopify://shop_images/IMG_4902-2.png",
+        "video_url": "",
+        "layout": "text_first",
+        "bg_color": "#ffffff",
+        "text_color": "#121212",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "slider_image_iAJRjw": {
+      "type": "slider-image",
+      "blocks": {
+        "testimonial_KHmU7R": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/344a1891-1dc5-49be-acf4-e07c828e5bec_copy.jpg",
+            "stars": 5,
+            "title": "<p><strong>This stuff is DANGEROUS </strong></p>",
+            "text": "<p> ''Dangerously effective! Wanted to try it out, I put it on & did my exs makeup for our show , he texted me 2 hours later wanting to talk. Like this stuff really WORKS!\"</p>",
+            "author": "<p>Elizabeth P | <strong>Verified Customer</strong></p>",
+            "badge_1": "<p>More Attention</p>",
+            "badge_2": "<p>Sex Appeal</p>",
+            "badge_3": ""
+          }
+        },
+        "testimonial_U96Ran": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/e-com2_edit-2_83dbb103-3e1c-486b-8ceb-502918f77213.png",
+            "stars": 5,
+            "title": "<p><strong>This stuff is DANGEROUS </strong></p>",
+            "text": "<p> ''Dangerously effective! Wanted to try it out, I put it on & did my exs makeup for our show , he texted me 2 hours later wanting to talk. Like this stuff really WORKS!\"</p>",
+            "author": "<p>Elizabeth P | <strong>Verified Customer</strong></p>",
+            "badge_1": "<p>More Attention</p>",
+            "badge_2": "<p>Sex Appeal</p>",
+            "badge_3": ""
+          }
+        },
+        "testimonial_iyzWtB": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/6D2A8A87-1FB9-4CA8-A56A-08215F579A0F.jpg",
+            "stars": 5,
+            "title": "<p><strong>This stuff is DANGEROUS </strong></p>",
+            "text": "<p> ''Dangerously effective! Wanted to try it out, I put it on & did my exs makeup for our show , he texted me 2 hours later wanting to talk. Like this stuff really WORKS!\"</p>",
+            "author": "<p>Elizabeth P | <strong>Verified Customer</strong></p>",
+            "badge_1": "<p>More Attention</p>",
+            "badge_2": "<p>Sex Appeal</p>",
+            "badge_3": ""
+          }
+        },
+        "button_yXj6Kj": {
+          "type": "button",
+          "settings": {
+            "button_label": "Try Today Risk Free",
+            "button_url": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_KHmU7R",
+        "testimonial_U96Ran",
+        "testimonial_iyzWtB",
+        "button_yXj6Kj"
+      ],
+      "name": "Images slider",
+      "settings": {
+        "background_color": "#ffe7eb",
+        "text_color": "#121212",
+        "heading": "<h2>What Women Like You Are <strong>Saying</strong> </h2>",
+        "guarantee_text": "<p>30 Day Money Back Guarantee</p>",
+        "guarantee_image": "shopify://shop_images/feels_4_img.avif",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "faq_XU9cLy": {
+      "type": "faq",
+      "blocks": {
+        "faq_ViiVit": {
+          "type": "faq",
+          "settings": {
+            "question": "What makes Sirense different from regular perfumes?",
+            "answer": "Unlike conventional fragrances, Sirense combines targeted pheromone technology with alluring scent notes. While traditional perfumes only provide fragrance, our formula works on a biological level, creating genuine attraction through scientifically proven compounds."
+          }
+        },
+        "faq_iWxJtG": {
+          "type": "faq",
+          "settings": {
+            "question": "How does Sirense create my unique scent?",
+            "answer": "Our formula adapts uniquely to your individual chemistry, creating an exclusive signature. When applied, the pheromone molecules interact with your natural skin oils, pH levels, and body temperature, creating a personalized scent evolution. While everyone experiences the same initial fragrance notes, the formula develops distinctively on your skin - a perfect fusion of science and your natural biochemistry."
+          }
+        },
+        "faq_KAt78b": {
+          "type": "faq",
+          "settings": {
+            "question": "How does Sirense ensure effectiveness for women?",
+            "answer": "The formula features specifically female-attractant pheromones, scientifically proven to enhance women's natural allure. Through extensive research, we've identified and isolated the exact compounds that create authentic attraction signals. This precision in development ensures that every drop of Sirense works in harmony with female biology."
+          }
+        },
+        "faq_zDfrQq": {
+          "type": "faq",
+          "settings": {
+            "question": "How are Sirense pheromones produced?",
+            "answer": "Every formula undergoes rigorous testing to ensure optimal concentration and effectiveness. Our commitment to scientific excellence guarantees that each batch meets our exacting standards before reaching you."
+          }
+        },
+        "faq_DELVRx": {
+          "type": "faq",
+          "settings": {
+            "question": "Is Sirense laboratory tested?",
+            "answer": "Every formula undergoes rigorous testing to ensure optimal concentration and effectiveness. Our commitment to scientific excellence guarantees that each batch meets our exacting standards before reaching you."
+          }
+        }
+      },
+      "block_order": [
+        "faq_ViiVit",
+        "faq_iWxJtG",
+        "faq_KAt78b",
+        "faq_zDfrQq",
+        "faq_DELVRx"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "@media screen and (max-width: 750px) {.faq__wrapper {padding: 0 23px; }}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "title": "Frequently Asked Questions",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "176182294864a4ae1f": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_4rgmVJ": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": true,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_4rgmVJ"
+      ],
+      "custom_css": [],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "related-products",
+    "main",
+    "science_backed_formula_bFxAVy",
+    "testimonials_JyneJF",
+    "image_with_grid_cQ6aM3",
+    "slider_image_iAJRjw",
+    "faq_XU9cLy",
+    "176182294864a4ae1f"
+  ]
+}

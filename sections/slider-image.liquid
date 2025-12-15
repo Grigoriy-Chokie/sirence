@@ -1,0 +1,224 @@
+{{ 'section-slider-image.css' | asset_url | stylesheet_tag }}
+<section
+  class="testimonials-section"
+  style="background-color: {{ section.settings.background_color }}; color: {{ section.settings.text_color }}; padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px;"
+>
+  <div class="container page-width">
+    {% if section.settings.heading != blank %}
+      <div class="testimonials-heading">{{ section.settings.heading }}</div>
+    {% endif %}
+
+    <div class="swiper testimonials-swiper">
+      <div class="swiper-wrapper testimonials-swiper-wrapper">
+        {% for block in section.blocks %}
+          {% if block.type == 'testimonial' %}
+            <div class="swiper-slide testimonial-item" {{ block.shopify_attributes }}>
+              <div class="testimonial-item__wrapper">
+                {% if block.settings.image %}
+                  <img src="{{ block.settings.image | img_url: '800x800' }}" alt="{{ block.settings.author }}">
+                {% endif %}
+                <div class="testimonials_stars">
+                  {% for i in (1..block.settings.stars) %}
+                    <svg width="18" height="17" viewBox="80 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M88.5 13.8064L84.1752 16.3773C84.0303 16.4725 83.8772 16.5123 83.716 16.4967C83.5548 16.4807 83.4098 16.4331 83.281 16.3539C83.1523 16.2587 83.0557 16.1396 82.9911 15.9968C82.9265 15.854 82.9184 15.6952 82.9668 15.5203L84.1027 10.6642L80.2848 7.37914C80.1398 7.26831 80.0513 7.13748 80.0192 6.98665C79.9871 6.83583 79.9952 6.689 80.0436 6.54617C80.0919 6.40335 80.1723 6.28432 80.2848 6.1891C80.3977 6.09389 80.5508 6.03047 80.7441 5.99886L85.7937 5.57038L87.7508 0.975901C87.8154 0.817077 87.9201 0.698054 88.0651 0.618833C88.2101 0.539611 88.355 0.5 88.5 0.5C88.645 0.5 88.7899 0.539611 88.9349 0.618833C89.0799 0.698054 89.1846 0.817077 89.2492 0.975901L91.2063 5.57038L96.2559 5.99886C96.4492 6.03047 96.6023 6.09389 96.7152 6.1891C96.8277 6.28432 96.9081 6.40335 96.9564 6.54617C97.0048 6.689 97.0129 6.83583 96.9808 6.98665C96.9487 7.13748 96.8602 7.26831 96.7152 7.37914L92.8973 10.6642L94.0332 15.5203C94.0816 15.6952 94.0734 15.854 94.0089 15.9968C93.9443 16.1396 93.8477 16.2587 93.719 16.3539C93.5902 16.4331 93.4452 16.4807 93.284 16.4967C93.1228 16.5123 92.9697 16.4725 92.8248 16.3773L88.5 13.8064Z"
+                        fill="#FFA900"
+                      />
+                    </svg>
+                  {% endfor %}
+                </div>
+                <div class="testimonials_title">{{ block.settings.title }}</div>
+                <div class="testimonials_text">{{ block.settings.text }}</div>
+                <div class="testimonials_author" style="--author-icon: url({{ 'scent_check.png' | asset_url }});">{{ block.settings.author }}</div>
+                <div class="testimonials_badges">
+                  {% if block.settings.badge_1 != blank %}<div>{{ block.settings.badge_1 }}</div>{% endif %}
+                  {% if block.settings.badge_2 != blank %}<div>{{ block.settings.badge_2 }}</div>{% endif %}
+                  {% if block.settings.badge_3 != blank %}<div>{{ block.settings.badge_3 }}</div>{% endif %}
+                </div>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      </div>
+      <div class="swiper-pagination testimonials-swiper-pagination"></div>
+  </div>
+  <div class="testimonials__buttons page-width">
+    {% for block in section.blocks %}
+      {% if block.type == 'button' %}
+        <a
+          href="{{ block.settings.button_url }}"
+          class="button{% if block.settings.button_style == 'secondary' %} button--secondary{% endif %}"
+        >
+          {{ block.settings.button_label }}
+        </a>
+      {% endif %}
+    {% endfor %}
+    {% if section.settings.guarantee_text != blank or section.settings.guarantee_image != blank %}
+      <div class="testimonials__guarantee">
+        {% if section.settings.guarantee_image != blank %}
+          {{ section.settings.guarantee_image | image_url: width: 100 | image_tag: class: 'media-text-grid__guarantee-image', loading: 'lazy' }}
+        {% endif %}
+        {% if section.settings.guarantee_text != blank %}
+          <div class="testimonials__guarantee-text rte">
+            {{ section.settings.guarantee_text }}
+          </div>
+        {% endif %}
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+{{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
+{{ 'swiper-bundle.min.js'  | asset_url | script_tag }}
+{{ 'section-slider-image.js'  | asset_url | script_tag }}
+
+{% schema %}
+{
+  "name": "Testimonials",
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#000000"
+    },
+    {
+      "type": "richtext",
+      "id": "heading",
+      "label": "Section heading",
+      "default": "<h2>Default Heading</h2>"
+    },
+    {
+      "type": "richtext",
+      "id": "guarantee_text",
+      "label": "Guarantee text"
+    },
+    {
+      "type": "image_picker",
+      "id": "guarantee_image",
+      "label": "Guarantee image"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Author image"
+        },
+        {
+          "type": "range",
+          "id": "stars",
+          "label": "Stars",
+          "min": 1,
+          "max": 5,
+          "default": 5
+        },
+        {
+          "type": "richtext",
+          "id": "title",
+          "label": "Title",
+          "default": "<p>Default text</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Default text</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "author",
+          "label": "Author name",
+          "default": "<p>Author name</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "badge_1",
+          "label": "Badge 1",
+          "default": "<p>Badge_1</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "badge_2",
+          "label": "Badge 2",
+          "default": "<p>Badge_2</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "badge_3",
+          "label": "Badge 3"
+        }
+      ],
+      "limit": 3
+    },
+    {
+      "type": "button",
+      "name": "Button",
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button label",
+          "default": "Try Today Risk Free"
+        },
+        {
+          "type": "url",
+          "id": "button_url",
+          "label": "Button URL"
+        },
+        {
+          "type": "select",
+          "id": "button_style",
+          "label": "Button style",
+          "options": [
+            { "value": "primary", "label": "Primary" },
+            { "value": "secondary", "label": "Secondary" }
+          ],
+          "default": "primary"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    { "name": "Images slider",
+      "blocks": [
+        { "type": "testimonial" },
+        { "type": "testimonial" },
+        { "type": "testimonial" }
+      ]
+    }
+  ]
+}
+{% endschema %}

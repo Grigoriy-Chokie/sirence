@@ -1,0 +1,477 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "text_with_image_TrQjTd": {
+      "type": "banner-text-with-image",
+      "blocks": {
+        "block_KjWeja": {
+          "type": "block",
+          "settings": {}
+        },
+        "block_HQXRD7": {
+          "type": "block",
+          "settings": {}
+        },
+        "block_MbEFR8": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/Container.svg"
+          }
+        },
+        "block_wnENRz": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/Group.svg"
+          }
+        },
+        "block_36bxU3": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/USA_Today__2020-01-29_1.svg"
+          }
+        },
+        "block_mAw877": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/marketwatch-logo_1.svg"
+          }
+        }
+      },
+      "block_order": [
+        "block_KjWeja",
+        "block_HQXRD7",
+        "block_MbEFR8",
+        "block_wnENRz",
+        "block_36bxU3",
+        "block_mAw877"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-4",
+        "image": "shopify://shop_images/e-com2_edit-2_83dbb103-3e1c-486b-8ceb-502918f77213.png",
+        "image_mobile": "shopify://shop_images/e-com2_edit-2_83dbb103-3e1c-486b-8ceb-502918f77213.png",
+        "layout": "text_first",
+        "badge_text": "",
+        "heading": "<p>Unlock Your <strong>Magnetic </strong>Attraction</p>",
+        "text": "<p>Experience the scientifically-proven power of premium pheromones.</p>",
+        "button_text": "Shop Now",
+        "button_url": "shopify://products/sirense-attraction-elixir-20-ml-0-7-fl-oz",
+        "use_sticky": false,
+        "badge_text_image_1": "shopify://shop_images/feels_4_img.avif",
+        "badge_text_1": "30-Day Money Back",
+        "badge_text_image_2": "shopify://shop_images/test-1231.avif",
+        "badge_text_2": "50,000+ Happy Customers",
+        "bottom_text": "<p><em>If you don't feel more confident and attractive within 30 days, we'll refund every penny. No questions asked.</em></p>",
+        "rating_text": "Over 250,000 Happy Customers",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "slider_image_XQ8Bmn": {
+      "type": "slider-image",
+      "blocks": {
+        "testimonial_PJxt67": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "<p>Default text</p>",
+            "text": "<p>Default text</p>",
+            "author": "<p>Author name</p>",
+            "badge_1": "<p>Badge_1</p>",
+            "badge_2": "<p>Badge_2</p>",
+            "badge_3": ""
+          }
+        },
+        "testimonial_AxnyPm": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "<p>Default text</p>",
+            "text": "<p>Default text</p>",
+            "author": "<p>Author name</p>",
+            "badge_1": "<p>Badge_1</p>",
+            "badge_2": "<p>Badge_2</p>",
+            "badge_3": ""
+          }
+        },
+        "testimonial_RR6wa9": {
+          "type": "testimonial",
+          "settings": {
+            "stars": 5,
+            "title": "<p>Default text</p>",
+            "text": "<p>Default text</p>",
+            "author": "<p>Author name</p>",
+            "badge_1": "<p>Badge_1</p>",
+            "badge_2": "<p>Badge_2</p>",
+            "badge_3": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_PJxt67",
+        "testimonial_AxnyPm",
+        "testimonial_RR6wa9"
+      ],
+      "disabled": true,
+      "name": "Images slider",
+      "settings": {
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "heading": "<h2>Default Heading</h2>",
+        "guarantee_text": "",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_grid_MQN9JU": {
+      "type": "image-with-grid",
+      "blocks": {
+        "text_block_9rY36E": {
+          "type": "text_block",
+          "settings": {
+            "text": "<p><strong>Compliment Magnet </strong></p><p>Leaving a personal scent trail that gets compliment everytime.</p>"
+          }
+        },
+        "text_block_7ddGiT": {
+          "type": "text_block",
+          "settings": {
+            "text": "<p><strong>Compliment Magnet </strong></p><p>Leaving a personal scent trail that gets compliment everytime.</p>"
+          }
+        },
+        "text_block_kd9NU6": {
+          "type": "text_block",
+          "settings": {
+            "text": "<p><strong>Compliment Magnet </strong></p><p>Leaving a personal scent trail that gets compliment everytime.</p>"
+          }
+        },
+        "text_block_dqnNpq": {
+          "type": "text_block",
+          "settings": {
+            "text": "<p><strong>Compliment Magnet </strong></p><p>Leaving a personal scent trail that gets compliment everytime.</p>"
+          }
+        },
+        "button_UdA8QQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Try Today Risk Free",
+            "button_url": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_9rY36E",
+        "text_block_7ddGiT",
+        "text_block_kd9NU6",
+        "text_block_dqnNpq",
+        "button_UdA8QQ"
+      ],
+      "disabled": true,
+      "name": "Media with Text Grid",
+      "settings": {
+        "heading": "",
+        "guarantee_text": "",
+        "heading_alignment": "center",
+        "video_url": "",
+        "layout": "media_first",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "science_backed_formula_dbtmdC": {
+      "type": "science-backed-formula",
+      "blocks": {
+        "stat_AQj4rR": {
+          "type": "stat",
+          "settings": {
+            "heading": "98%",
+            "text": "Notice increased confidence"
+          }
+        },
+        "stat_JjknUc": {
+          "type": "stat",
+          "settings": {
+            "heading": "24hrs",
+            "text": "Long-lasting effect"
+          }
+        },
+        "stat_aD9R4b": {
+          "type": "stat",
+          "settings": {
+            "heading": "Science",
+            "text": "Backed formula"
+          }
+        }
+      },
+      "block_order": [
+        "stat_AQj4rR",
+        "stat_JjknUc",
+        "stat_aD9R4b"
+      ],
+      "name": "Stats block",
+      "settings": {
+        "background_color": "#ffffff",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "testimonials_iLycyH": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_VKK7pF": {
+          "type": "testimonial",
+          "settings": {
+            "video": "shopify://files/videos/IMG_8887.MOV"
+          }
+        },
+        "statistic_aRY7yB": {
+          "type": "statistic",
+          "settings": {
+            "percentage": 95,
+            "text": "Experienced the effect of our pheromone-infused scents."
+          }
+        },
+        "statistic_NVBD4Y": {
+          "type": "statistic",
+          "settings": {
+            "percentage": 90,
+            "text": "Said that our scents last longer than regular perfumes."
+          }
+        },
+        "statistic_r6GG9L": {
+          "type": "statistic",
+          "settings": {
+            "percentage": 54,
+            "text": "Of customers rated our brand as the top choice among all the pheromone-inspired scents they have ever tried."
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_VKK7pF",
+        "statistic_aRY7yB",
+        "statistic_NVBD4Y",
+        "statistic_r6GG9L"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "color_scheme": "",
+        "slides_per_view": 1,
+        "title": "Discover your elevated potential",
+        "bottom_text": "* Results according to clinical/consumer studies. For more information refer to each product page.",
+        "button_text": "Shop Now",
+        "button_url": "",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "image_with_grid_VtjMhz": {
+      "type": "image-with-grid",
+      "blocks": {
+        "text_block_aKiKRF": {
+          "type": "text_block",
+          "settings": {
+            "icon": "shopify://shop_images/test-1231.avif",
+            "text": "<p><strong>Your Scent, Amplified </strong></p><p>Sirense creates your own personal signature scent when applied. </p>"
+          }
+        },
+        "text_block_cdaPF7": {
+          "type": "text_block",
+          "settings": {
+            "icon": "shopify://shop_images/eye.png",
+            "text": "<p><strong>Compliment Magnet </strong></p><p>Leaving a personal scent trail that gets compliment everytime.</p>"
+          }
+        },
+        "text_block_d69qpK": {
+          "type": "text_block",
+          "settings": {
+            "icon": "shopify://shop_images/perfume-bottle.png",
+            "text": "<p><strong>Layer Your Signature</strong></p><p>Sirense blends effortlessly with your favorite perfume.</p>"
+          }
+        },
+        "text_block_4kRXPx": {
+          "type": "text_block",
+          "settings": {
+            "icon": "shopify://shop_images/day-and-night.png",
+            "text": "<p><strong>Every Moment, Every Mood</strong></p><p>Wear confidently day or night, anytime, anywhere.</p>"
+          }
+        },
+        "button_QxNCax": {
+          "type": "button",
+          "settings": {
+            "button_label": "Try Today Risk Free",
+            "button_url": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_aKiKRF",
+        "text_block_cdaPF7",
+        "text_block_d69qpK",
+        "text_block_4kRXPx",
+        "button_QxNCax"
+      ],
+      "name": "Media with Text Grid",
+      "settings": {
+        "heading": "<h2>Turn Heads <em><strong>Everytime</strong></em></h2>",
+        "guarantee_text": "<p>30 Day Money Back Guarantee</p>",
+        "guarantee_image": "shopify://shop_images/feels_4_img.avif",
+        "heading_alignment": "left",
+        "image": "shopify://shop_images/IMG_4902-2.png",
+        "video_url": "",
+        "layout": "text_first",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "slider_image_wDCjae": {
+      "type": "slider-image",
+      "blocks": {
+        "testimonial_zWrYXx": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/344a1891-1dc5-49be-acf4-e07c828e5bec_copy.jpg",
+            "stars": 5,
+            "title": "<p><strong>This stuff is DANGEROUS </strong></p>",
+            "text": "<p> ''Dangerously effective! Wanted to try it out, I put it on & did my exs makeup for our show , he texted me 2 hours later wanting to talk. Like this stuff really WORKS!\"</p>",
+            "author": "<p>Elizabeth P | <strong>Verified Customer</strong></p>",
+            "badge_1": "<p>More Attention</p>",
+            "badge_2": "<p>Sex Appeal</p>",
+            "badge_3": ""
+          }
+        },
+        "testimonial_EkkweL": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/e-com2_edit-2.png",
+            "stars": 5,
+            "title": "<p><strong>This stuff is DANGEROUS </strong></p>",
+            "text": "<p> ''Dangerously effective! Wanted to try it out, I put it on & did my exs makeup for our show , he texted me 2 hours later wanting to talk. Like this stuff really WORKS!\"</p>",
+            "author": "<p>Elizabeth P | <strong>Verified Customer</strong></p>",
+            "badge_1": "<p>More Attention</p>",
+            "badge_2": "<p>Sex Appeal</p>",
+            "badge_3": ""
+          }
+        },
+        "testimonial_iXLAkw": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/6D2A8A87-1FB9-4CA8-A56A-08215F579A0F.jpg",
+            "stars": 5,
+            "title": "<p><strong>This stuff is DANGEROUS </strong></p>",
+            "text": "<p> ''Dangerously effective! Wanted to try it out, I put it on & did my exs makeup for our show , he texted me 2 hours later wanting to talk. Like this stuff really WORKS!\"</p>",
+            "author": "<p>Elizabeth P | <strong>Verified Customer</strong></p>",
+            "badge_1": "<p>More Attention</p>",
+            "badge_2": "<p>Sex Appeal</p>",
+            "badge_3": ""
+          }
+        },
+        "button_zPDKEE": {
+          "type": "button",
+          "settings": {
+            "button_label": "Try Today Risk Free",
+            "button_url": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_zWrYXx",
+        "testimonial_EkkweL",
+        "testimonial_iXLAkw",
+        "button_zPDKEE"
+      ],
+      "name": "Images slider",
+      "settings": {
+        "background_color": "#ffe7eb",
+        "text_color": "#121212",
+        "heading": "<h2>What Women Like You Are Saying </h2>",
+        "guarantee_text": "<p>30 Day Money Back Guarantee</p>",
+        "guarantee_image": "shopify://shop_images/feels_4_img.avif",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "faq_XU9cLy": {
+      "type": "faq",
+      "blocks": {
+        "faq_ViiVit": {
+          "type": "faq",
+          "settings": {
+            "question": "What makes Sirense different from regular perfumes?",
+            "answer": "Unlike conventional fragrances, Sirense combines targeted pheromone technology with alluringscent notes. While traditional perfumes only provide fragrance, our formula works on a biologicallevel, creating genuine attraction through scientifically proven compounds."
+          }
+        },
+        "faq_iWxJtG": {
+          "type": "faq",
+          "settings": {
+            "question": "How does Sirense create my unique scent?",
+            "answer": "Our formula adapts uniquely to your individual chemistry, creating an exclusive signature. Whenapplied, the pheromone molecules interact with your natural skin oils, pH levels, and bodytemperature, creating a personalized scent evolution. While everyone experiences the same initialfragrance notes, the formula develops distinctively on your skin - a perfect fusion of science andyour natural biochemistry."
+          }
+        },
+        "faq_KAt78b": {
+          "type": "faq",
+          "settings": {
+            "question": "How does Sirense ensure effectiveness for women?",
+            "answer": "The  formula features specifically female-attractant pheromones, scientifically proven to enhancewomen's natural allure. Through extensive research, we've identified and isolated the exactcompounds that create authentic attraction signals. This precision in development ensures that everydrop of Sirense works in harmony with female biology."
+          }
+        },
+        "faq_zDfrQq": {
+          "type": "faq",
+          "settings": {
+            "question": "How are Sirense pheromones produced?",
+            "answer": "Every formula undergoes rigorous testing to ensure optimal concentration and effectiveness. Ourcommitment to scientific excellence guarantees that each batch meets our exacting standards beforereaching you."
+          }
+        },
+        "faq_DELVRx": {
+          "type": "faq",
+          "settings": {
+            "question": "Is Sirense laboratory tested?",
+            "answer": "Every formula undergoes rigorous testing to ensure optimal concentration and effectiveness. Our commitment to scientific excellence guarantees that each batch meets our exacting standards beforereaching you."
+          }
+        }
+      },
+      "block_order": [
+        "faq_ViiVit",
+        "faq_iWxJtG",
+        "faq_KAt78b",
+        "faq_zDfrQq",
+        "faq_DELVRx"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "title": "Frequently Asked Questions",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
+    }
+  },
+  "order": [
+    "text_with_image_TrQjTd",
+    "slider_image_XQ8Bmn",
+    "image_with_grid_MQN9JU",
+    "science_backed_formula_dbtmdC",
+    "testimonials_iLycyH",
+    "image_with_grid_VtjMhz",
+    "slider_image_wDCjae",
+    "faq_XU9cLy"
+  ]
+}

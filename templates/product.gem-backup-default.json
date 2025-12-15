@@ -1,0 +1,319 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "quantity_box_QYGeEM": {
+          "type": "quantity_box",
+          "settings": {
+            "title": "Single Bottle (20ml)",
+            "subtitle": "",
+            "discount": 0,
+            "quantity": 1
+          }
+        },
+        "quantity_box_prfFAQ": {
+          "type": "quantity_box",
+          "settings": {
+            "title": "Duo Pack",
+            "subtitle": "Positions as best-value option",
+            "discount": 25,
+            "quantity": 2
+          }
+        },
+        "quantity_box_br3RKE": {
+          "type": "quantity_box",
+          "settings": {
+            "title": "Triple Pack",
+            "subtitle": "Premium bulk option",
+            "discount": 33,
+            "quantity": 3
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "description",
+        "quantity_box_QYGeEM",
+        "quantity_box_prfFAQ",
+        "quantity_box_br3RKE",
+        "buy_buttons",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-e9c59207-7ea5-44f4-8842-cbe2f1e604d1",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "none",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 39,
+        "padding_bottom": 60,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "text_with_image_FGUtkT": {
+      "type": "text-with-image",
+      "blocks": {
+        "list_Ufr3cX": {
+          "type": "list",
+          "settings": {
+            "subtitle": "",
+            "text_1": "Igniting Instant Chemistry",
+            "text_2": "Captivating His Attention",
+            "text_3": "Awakening Lost Passion",
+            "text_4": "Enhancing Your Magnetic Appeal",
+            "text_5": "",
+            "text_6": "",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "list_Ufr3cX"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "card_color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 16,
+        "image": "shopify:\/\/shop_images\/e-com4_grey_edit_1.png",
+        "layout": "text_first",
+        "title": "",
+        "heading": "Perfect For",
+        "richtext": ""
+      }
+    },
+    "text_with_image_9YWhLF": {
+      "type": "text-with-image",
+      "blocks": {
+        "list_YX4LCg": {
+          "type": "list",
+          "settings": {
+            "subtitle": "",
+            "text_1": "Apply to pulse points (neck, wrists, behind ears)",
+            "text_2": "Allow moments for the biological activation",
+            "text_3": "Experience 8+ hours of effectiveness",
+            "text_4": "",
+            "text_5": "",
+            "text_6": "",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "list_YX4LCg"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "card_color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 80,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 24,
+        "image": "shopify:\/\/shop_images\/pic.png",
+        "layout": "image_first",
+        "title": "",
+        "heading": "How to Use",
+        "richtext": ""
+      }
+    },
+    "image_slider_bFGMjg": {
+      "type": "image-slider",
+      "blocks": {
+        "block_9K9hJL": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ingredients3_edit_2_1.png",
+            "title": "Cloud-soft marshmallow embrace",
+            "text": "Text 1"
+          }
+        },
+        "block_yi8HaL": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sirense3360_1.png",
+            "title": "Default title",
+            "text": "Default text"
+          }
+        },
+        "block_CWAK4E": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sirense3360_12.png",
+            "title": "Default title",
+            "text": "Default text"
+          }
+        }
+      },
+      "block_order": [
+        "block_9K9hJL",
+        "block_yi8HaL",
+        "block_CWAK4E"
+      ],
+      "settings": {
+        "color_scheme": "scheme-cbbe14d8-bc56-4638-af87-2a73e59a1549",
+        "title": "Key Ingredients",
+        "content": "<p>Our laboratory-excellence formula features:<\/p><ul><li>Precisely calibrated pheromone blend<\/li><li>Sun-ripened strawberry essence<\/li><li>Silky whipped vanilla cream<\/li><li>Soft marshmallow notes<\/li><\/ul>",
+        "button_text": "Shop Now",
+        "button_url": "#shopify-section-sections--24095953355073__announcement-bar",
+        "icon_list": "shopify:\/\/shop_images\/Background-123.png",
+        "padding_top": 0,
+        "padding_bottom": 60,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 58
+      }
+    },
+    "faq_XU9cLy": {
+      "type": "faq",
+      "blocks": {
+        "faq_ViiVit": {
+          "type": "faq",
+          "settings": {
+            "question": "What makes Sirense different from regular perfumes?",
+            "answer": "Our formula adapts uniquely to your individual chemistry, creating an exclusive signature. When applied, the pheromone molecules interact with your natural skin oils, pH levels, and body temperature, creating a personalized scent evolution. While everyone experiences the same initial fragrance notes, the formula develops distinctively on your skin - a perfect fusion of science and your natural biochemistry."
+          }
+        },
+        "faq_iWxJtG": {
+          "type": "faq",
+          "settings": {
+            "question": "How does Sirense create my unique scent?",
+            "answer": "Our formula adapts uniquely to your individual chemistry, creating an exclusive signature. When applied, the pheromone molecules interact with your natural skin oils, pH levels, and body temperature, creating a personalized scent evolution. While everyone experiences the same initial fragrance notes, the formula develops distinctively on your skin - a perfect fusion of science and your natural biochemistry."
+          }
+        },
+        "faq_KAt78b": {
+          "type": "faq",
+          "settings": {
+            "question": "How does Sirense ensure effectiveness for women?",
+            "answer": "Our formula adapts uniquely to your individual chemistry, creating an exclusive signature. When applied, the pheromone molecules interact with your natural skin oils, pH levels, and body temperature, creating a personalized scent evolution. While everyone experiences the same initial fragrance notes, the formula develops distinctively on your skin - a perfect fusion of science and your natural biochemistry."
+          }
+        },
+        "faq_zDfrQq": {
+          "type": "faq",
+          "settings": {
+            "question": "How are Sirense pheromones produced?",
+            "answer": "Our formula adapts uniquely to your individual chemistry, creating an exclusive signature. When applied, the pheromone molecules interact with your natural skin oils, pH levels, and body temperature, creating a personalized scent evolution. While everyone experiences the same initial fragrance notes, the formula develops distinctively on your skin - a perfect fusion of science and your natural biochemistry."
+          }
+        },
+        "faq_DELVRx": {
+          "type": "faq",
+          "settings": {
+            "question": "Is Sirense laboratory tested?",
+            "answer": "Our formula adapts uniquely to your individual chemistry, creating an exclusive signature. When applied, the pheromone molecules interact with your natural skin oils, pH levels, and body temperature, creating a personalized scent evolution. While everyone experiences the same initial fragrance notes, the formula develops distinctively on your skin - a perfect fusion of science and your natural biochemistry."
+          }
+        }
+      },
+      "block_order": [
+        "faq_ViiVit",
+        "faq_iWxJtG",
+        "faq_KAt78b",
+        "faq_zDfrQq",
+        "faq_DELVRx"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "title": "Frequently Asked Questions",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 24
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "text_with_image_FGUtkT",
+    "text_with_image_9YWhLF",
+    "image_slider_bFGMjg",
+    "faq_XU9cLy"
+  ]
+}

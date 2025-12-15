@@ -1,0 +1,236 @@
+.faq__wrapper * {
+  margin: 0;
+  padding: 0;
+}
+
+.faq {
+  background-color: #fff;
+}
+
+.faq__question {
+  background-color: rgb(var(--color-background));
+}
+
+.faq__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.faq__wrapper h2 {
+  text-align: center;
+}
+
+.faq__questions {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+
+  max-width: 680px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faq__question {
+  padding: 17px 23px;
+  border: 1px solid rgba(var(--color-border));
+  border-radius: 8px;
+  position: relative;
+  height: fit-content;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.02);
+  display: flex;
+  flex-direction: column;
+}
+
+.question__text p {
+  max-width: 90%;
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+  color: rgba(var(--color-foreground-2));
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.question__text p svg {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  right: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .3s ease;
+  transform: rotate(-180deg);
+}
+
+.faq__question input[type="checkbox"]:checked+.question__text p svg {
+  transform: rotate(0);
+}
+
+.question__answear {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: .5;
+  transition: all .3s ease;
+  overflow: hidden;
+  padding-right: 40px;
+}
+
+.question__answear div.metafield-rich_text_field {
+  overflow: hidden;
+  min-height: 0;
+}
+
+.question__answear > * {
+  min-height: 0;
+  overflow: hidden;
+}
+
+.question__answear p {
+  overflow: hidden;
+  transition: all .3s ease;
+  color: rgba(var(--color-foreground-3));
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 143%;
+  min-height: 0;
+}
+
+.faq__question input[type="checkbox"] {
+  appearance: none;
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  z-index: 2;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+
+.faq__question input[type="checkbox"]:checked+.question__text+.question__answear {
+    grid-template-rows: 1fr;
+    opacity: 1;
+}
+
+.faq__question input[type="checkbox"]:checked+.question__text+.question__answear p {
+    padding-top: 24px;
+}
+
+@media screen and (max-width: 767px) {
+
+  .faq__wrapper {
+    gap: 16px;
+  }
+
+  .faq__questions {
+    gap: 6px;
+  }
+
+  .faq__question {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .question__answear {
+    padding-right: 0;
+    overflow: hidden;
+  }
+  
+  .question__answear > * {
+    min-height: 0;
+  }
+
+  .question__text p {
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.28px;
+    max-width: 100%;
+    position: relative;
+  }
+
+  .question__text p svg {
+    width: 20px;
+    height: 20px;
+    top: calc(50% - 10px);
+    right: 0;
+  }
+
+  .faq__question input[type="checkbox"]:checked+.question__text+.question__answear p {
+    padding-top: 16px;
+  }
+}
+
+/************ PRODUCT STYLES ***************/
+
+.product .product__info-wrapper .faq__question {
+  border-radius: 0;
+  border: none;
+  border-top: 1px solid #e8e7e7;
+  box-shadow: unset;
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 0fr;
+  transition: grid-template-rows .4s ease;
+  place-content: start;
+  justify-content: stretch;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.product .product__info-wrapper .faq__question:last-of-type {
+  border-bottom: 1px solid #e8e7e7;
+}
+
+.product .product__info-wrapper .faq__question:has(input[type=checkbox]:checked) {
+  grid-template-rows: auto 1fr;
+}
+
+.product .product__info-wrapper .question__text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.product .product__info-wrapper .question__text p {
+  margin: 0;
+  padding-right: 0;
+}
+
+.product .product__info-wrapper .question__text .question__text--arrow {
+  margin: 0 0 0 auto;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .3s ease;
+  transform: rotate(-180deg);
+}
+
+.product .product__info-wrapper .faq__question:has(input[type=checkbox]:checked) .question__text .question__text--arrow {
+  transform: rotate(0);
+}
+
+.product .product__info-wrapper .question__answear {
+  padding-right: 0;
+  margin: 0;
+  min-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all .3s ease-in-out;
+}
+
+.product .product__info-wrapper .faq__question:has(input[type=checkbox]:checked) .question__answear {
+  opacity: 1;
+  margin-top: 1.5rem;
+  padding: 0;
+}
+
+.product .product__info-wrapper .question__answear p {
+  margin: 0;
+}

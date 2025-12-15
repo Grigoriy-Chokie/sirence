@@ -1,0 +1,141 @@
+.reviews__wrapper {
+  background: inherit;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+.reviews__wrapper .swiper{
+  width: 100%;
+}
+
+.reviews__wrapper h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.reviews__list {
+  display: flex;
+}
+
+.reviews__list li{
+  flex: 0 0 calc(100% / 3 - 20px * 2 / 3);
+}
+
+.review {
+  border-radius: 8px;
+  background: rgb(var(--color-background-secondary));
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.reviews__list li:not(:last-child){
+  margin-right: 20px;
+}
+
+.review__title {
+  margin-bottom: 10px;
+}
+
+.review__title,
+.review__content {
+  color: rgba(var(--color-foreground));
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0;
+
+  margin: 0;
+}
+
+.review__author {
+  margin-top: auto;
+}
+
+.review__author * {
+  color: rgba(var(--color-foreground));
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0;
+
+  margin: 0;
+}
+
+.review__author strong {
+  font-weight: 900;
+}
+
+.review__rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.review__rating-stars--unfilled,
+.review__rating-stars--filled {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  flex-wrap: nowrap;
+}
+
+.review__rating-stars--unfilled img{
+  width: 100px;
+  height: auto;
+}
+
+.review__rating-stars--unfilled svg,
+.review__rating-stars--filled svg {
+  min-width: 18px;
+  min-height: 18px;
+}
+
+.review__rating-stars--unfilled {
+  position: relative;
+}
+
+.review__rating-stars--filled {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.reviews__wrapper .swiper-pagination{
+  position: unset;
+}
+
+.reviews__wrapper .swiper-pagination-bullet-active{
+  background: rgb(172 77 128);
+}
+
+@media screen and (max-width: 990px) {
+  .reviews__list li {
+    flex: 0 0 100%;
+  }
+}
+
+@media screen and (max-width: 749px) {
+
+  .reviews__wrapper {
+    gap: 30px;
+  }
+
+  .review {
+    padding: 15px;
+    flex: none;
+  }
+
+  .review__title,
+  .review__content,
+  .review__author * {
+    font-size: 14px;
+  }
+}

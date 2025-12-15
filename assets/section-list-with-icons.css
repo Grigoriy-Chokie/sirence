@@ -1,0 +1,91 @@
+.list-with-icons__heading {
+  margin: 0;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+
+
+.list-with-icons * {
+  margin: 0;
+  padding: 0;
+}
+
+.list-with-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px 24px;
+}
+
+.list-with-icons__item {
+  max-width: 568px;
+  width: 100%;
+  flex: 1 0 calc(100% / 2 - 24px * 1 / 2);
+  padding: 18px 24px;
+  
+  border-radius: 8px;
+  border: 1px solid rgba(var(--color-border));
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.02);
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.list-with-icons__image {
+  max-width: 38px;
+  max-height: 38px;
+  width: 100%;
+  height: 100%;
+}
+
+.list-with-icons img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.list-with-icons__content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.list-with-icons__content h3 {
+  color: rgba(var(--color-foreground-2));
+}
+
+.list-with-icons__content p {
+  color: rgba(var(--color-foreground-3));
+  font-weight: 300;
+  letter-spacing: 0;
+}
+
+@media screen and (max-width: 749px) {
+
+  .list-with-icons__heading {
+    margin-bottom: 16px;
+  }
+
+  .list-with-icons {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .list-with-icons__item {
+    padding: 11px;
+    align-items: center;
+  }
+
+  .list-with-icons__image {
+    max-width: 32px;
+    max-height: 32px;
+  }
+
+  .list-with-icons__content {
+    gap: 4px;
+  }
+}

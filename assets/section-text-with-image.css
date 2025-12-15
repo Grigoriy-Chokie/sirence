@@ -1,0 +1,160 @@
+.image-with-text * {
+  margin: 0;
+  padding: 0;
+}
+
+.image-with-text__title {
+  text-align: center;
+  margin-bottom: 42px;
+}
+
+.image-with-text__grid{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image-with-text__grid img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-with-text__grid{
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.image-with-text__grid--reverse {
+  flex-direction: row-reverse;
+}
+
+.image-with-text__grid > *{
+  flex: 0 0 calc(50%)
+}
+
+.image-with-text__grid__heading {
+  margin-bottom: 24px;
+}
+
+.image-with-text__text-item {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.image-with-text__list-content {
+  margin-top: 27px;
+}
+
+.image-with-text__heading {
+  color: rgba(var(--color-foreground-2));
+  font-size: 37px !important;
+}
+
+@media screen and (max-width: 749px) {
+  .image-with-text__heading {
+    font-size: 42px !important;
+  }
+}
+
+.image-with-text__list-subtitle {
+  margin-bottom: 12px;
+}
+
+.image-with-text__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 5px;
+}
+
+.image-with-text__list-item {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.image-with-text__list-item p {
+  color: rgba(var(--color-foreground-3));
+  font-size: 18px;
+}
+
+.image-with-text__text {
+  margin-top: max(24px, min(60px, calc(24px + (36 * ((100vw - 749px) / 691)))));
+}
+
+.image-with-text__text * {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 140%;
+  letter-spacing: 0.32px;
+}
+
+.image-with-text__text em {
+  display: block;
+  margin-bottom: 8px;
+
+  font-style: italic;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0.18px;
+  font-size: 18px;
+}
+
+.image-with-text__text strong {
+  font-weight: 400;
+}
+
+@media screen and (max-width: 749px) {
+  .image-with-text__title {
+    margin-bottom: 16px;
+  }
+
+  .image-with-text__grid {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .image-with-text__text-item {
+    width: 100%;
+  }
+
+  .image-with-text__content {
+    width: 100%;
+  }
+
+  .image-with-text__text-item {
+    padding: 60px 16px;
+  }
+  
+  .image-with-text__list-content {
+    margin-top: 12px;
+  }
+
+  .image-with-text__list {
+    gap: 6px;
+    padding: 0;
+  }
+
+  .image-with-text__list-item {
+    gap: 8px;
+  }
+
+  .image-with-text__text em {
+    margin-bottom: 12px;
+  }
+
+  .image-with-text__list-item fvg{
+    width: 20px;
+    height: 20px;
+  }
+
+  .image-with-text__list-item p{
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,41 @@
+@keyframes horizontal-scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.running-line{
+    overflow: hidden;
+}
+.running-line__wrapper{
+    animation: horizontal-scroll var(--animation-duration) linear infinite;
+    display: flex;
+    gap: 20px;
+}
+
+.running-line__item{
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    min-width: 100vw;
+    gap: 32px;
+}
+
+.running-line__item img{
+    height: 26px;
+    width: auto;
+    display: block;
+}
+
+.running-line__wrapper{
+    margin-top: 32px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .running-line__item{
+        min-width: fit-content;
+    }
+}

@@ -1,0 +1,506 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "quantity_box_QYGeEM": {
+          "type": "quantity_box",
+          "settings": {
+            "title": "Single Bottle (20ml)",
+            "subtitle": "",
+            "discount": 0,
+            "quantity": 1,
+            "is_selected": false
+          }
+        },
+        "quantity_box_prfFAQ": {
+          "type": "quantity_box",
+          "settings": {
+            "title": "Duo Pack",
+            "subtitle": "Positions as best-value option",
+            "discount": 25,
+            "quantity": 2,
+            "is_selected": true
+          }
+        },
+        "quantity_box_br3RKE": {
+          "type": "quantity_box",
+          "settings": {
+            "title": "Triple Pack",
+            "subtitle": "Premium bulk option",
+            "discount": 33,
+            "quantity": 3,
+            "is_selected": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "description",
+        "quantity_box_QYGeEM",
+        "quantity_box_prfFAQ",
+        "quantity_box_br3RKE",
+        "buy_buttons",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-e9c59207-7ea5-44f4-8842-cbe2f1e604d1",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "none",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 39,
+        "padding_bottom": 60,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "1747838362adb454c2": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_aLHne6": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_aLHne6"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "text_with_image_FGUtkT": {
+      "type": "text-with-image",
+      "blocks": {
+        "list_Ufr3cX": {
+          "type": "list",
+          "settings": {
+            "subtitle": "",
+            "text_1": "Igniting Instant Chemistry",
+            "text_2": "Captivating His Attention",
+            "text_3": "Awakening Lost Passion",
+            "text_4": "Enhancing Your Magnetic Appeal",
+            "text_5": "",
+            "text_6": "",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "list_Ufr3cX"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "card_color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 16,
+        "image": "shopify:\/\/shop_images\/e-com4_grey_edit_1.png",
+        "layout": "text_first",
+        "title": "",
+        "heading": "Perfect For",
+        "richtext": ""
+      }
+    },
+    "text_with_image_9YWhLF": {
+      "type": "text-with-image",
+      "blocks": {
+        "list_YX4LCg": {
+          "type": "list",
+          "settings": {
+            "subtitle": "",
+            "text_1": "Apply to pulse points (neck, wrists, behind ears)",
+            "text_2": "Allow moments for the biological activation",
+            "text_3": "Experience 8+ hours of effectiveness",
+            "text_4": "",
+            "text_5": "",
+            "text_6": "",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "list_YX4LCg"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "card_color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 80,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 24,
+        "image": "shopify:\/\/shop_images\/pic.png",
+        "layout": "image_first",
+        "title": "",
+        "heading": "How to Use",
+        "richtext": ""
+      }
+    },
+    "image_slider_bFGMjg": {
+      "type": "image-slider",
+      "blocks": {
+        "block_9K9hJL": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ingredients3_edit_2_1.png",
+            "title": "Cloud-soft marshmallow embrace",
+            "text": "Text 1"
+          }
+        },
+        "block_yi8HaL": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sirense3360_1.png",
+            "title": "Default title",
+            "text": "Default text"
+          }
+        },
+        "block_CWAK4E": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sirense3360_12.png",
+            "title": "Default title",
+            "text": "Default text"
+          }
+        }
+      },
+      "block_order": [
+        "block_9K9hJL",
+        "block_yi8HaL",
+        "block_CWAK4E"
+      ],
+      "settings": {
+        "color_scheme": "scheme-cbbe14d8-bc56-4638-af87-2a73e59a1549",
+        "title": "Key Ingredients",
+        "content": "<p>Our laboratory-excellence formula features:<\/p><ul><li>Precisely calibrated pheromone blend<\/li><li>Sun-ripened strawberry essence<\/li><li>Silky whipped vanilla cream<\/li><li>Soft marshmallow notes<\/li><\/ul>",
+        "button_text": "Shop Now",
+        "button_url": "#shopify-section-sections--24095953355073__announcement-bar",
+        "icon_list": "shopify:\/\/shop_images\/Background-123.png",
+        "padding_top": 0,
+        "padding_bottom": 60,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 58
+      }
+    },
+    "testimonials_VrygMr": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_qbk8NK": {
+          "type": "testimonial",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/c136def2452e4a75971fa829af0013c8.mp4"
+          }
+        },
+        "testimonial_8KTYNP": {
+          "type": "testimonial",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/c136def2452e4a75971fa829af0013c8.mp4"
+          }
+        },
+        "testimonial_pq9EV9": {
+          "type": "testimonial",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/c136def2452e4a75971fa829af0013c8.mp4"
+          }
+        },
+        "testimonial_cVLxX9": {
+          "type": "testimonial",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/IMG_6214.MP4"
+          }
+        },
+        "statistic_DnAcG3": {
+          "type": "statistic",
+          "settings": {
+            "percentage": 95,
+            "text": "Experienced the effect of our pheromone-infused scents."
+          }
+        },
+        "statistic_CkVQka": {
+          "type": "statistic",
+          "settings": {
+            "percentage": 90,
+            "text": "Said that our scents last longer than regular perfumes."
+          }
+        },
+        "statistic_JqdWVC": {
+          "type": "statistic",
+          "settings": {
+            "percentage": 54,
+            "text": "Of customers rated our brand as the tap choice among all the pheromone-inspired scents they have ever tried."
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_qbk8NK",
+        "testimonial_8KTYNP",
+        "testimonial_pq9EV9",
+        "testimonial_cVLxX9",
+        "statistic_DnAcG3",
+        "statistic_CkVQka",
+        "statistic_JqdWVC"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "title": "Discover your elevated potential",
+        "bottom_text": "* Results according to clinical\/consumer studies. For more information refer to each product page.",
+        "button_text": "SHOP NOW",
+        "button_url": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "reviews_zm8rtm": {
+      "type": "reviews",
+      "blocks": {
+        "review_VbWVjG": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "title": "Irresistible Scent",
+            "review": "“The strawberry-vanilla scent is heavenly, but there’s something more happening here. I’ve noticed such a difference in how people respond to me, especially my husband who can’t seem to get enough of being close to me lately 💗”",
+            "richtext": "<p><strong>Sophia M.<\/strong> 1 day ago<\/p>"
+          }
+        },
+        "review_yyzC3w": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "title": "Unforgettable Aroma",
+            "review": "“Y’all... this stuff is like magic in a bottle fr fr. The scent is giving main character energy and my gym crush finally asked for my number 😭 Worth every penny periodt ✨”",
+            "richtext": "<p><strong>Emily R.<\/strong> 1 day ago<\/p>"
+          }
+        },
+        "review_TVMPVk": {
+          "type": "review",
+          "settings": {
+            "rating": 4.9,
+            "title": "Real Strawberry Bliss",
+            "review": "“As a perfume snob who usually sticks to niche fragrances, I was pleasantly surprised. The strawberry note is incredibly realistic, like fresh berries at a farmer’s market, and the cream adds this expensive depth. Nothing synthetic here”",
+            "richtext": "<p><strong>Lily K.<\/strong> 3 days ago<\/p>"
+          }
+        },
+        "review_TVMPVf": {
+          "type": "review",
+          "settings": {
+            "rating": 4.9,
+            "title": "Strawberry Confidence",
+            "review": "“The scent is gorgeous - fresh strawberries melting into cream. But the real surprise is how differently people treat me. More smiles, more attention, more everything. My confidence has soared!”",
+            "richtext": "<p><strong>Grace L.<\/strong> 3 days ago<\/p>"
+          }
+        },
+        "review_LV7K3n": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "title": "Unexpected Attraction",
+            "review": "“Been wearing designer perfumes for years but there’s something special about this one. My husband of 15 years suddenly started coming home early from work 😅 The scent is gorgeous but there’s definitely more to it…”",
+            "richtext": "<p><strong>Chloe D.<\/strong> 1 day ago<\/p>"
+          }
+        },
+        "review_8fLPGm": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "title": "Pheromone Power",
+            "review": "“Wasn’t sure about pheromones but decided to try it. Have to admit - there’s definitely something different about this perfume. Plus it smells amazing! The subtle changes in daily interactions are fascinating.”",
+            "richtext": "<p><strong>Mia T. <\/strong>2 days ago<\/p>"
+          }
+        },
+        "review_eTLrLb": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "title": "Endless Compliments",
+            "review": "“Love how light this is - I wear it alone or mix it with my favorite perfume. Either way, getting way more attention lately! The scent develops beautifully throughout the day and the compliments are endless.”",
+            "richtext": "<p><strong>Ava S. <\/strong>4 days ago<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "review_VbWVjG",
+        "review_yyzC3w",
+        "review_TVMPVk",
+        "review_TVMPVf",
+        "review_LV7K3n",
+        "review_8fLPGm",
+        "review_eTLrLb"
+      ],
+      "custom_css": [
+        "h2 {font-size: 30px;}",
+        "@media (max-width: 768px) {h2 {font-size: 25px; }}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-80d9781c-23a2-4740-bbfc-d72ee4847930",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 30,
+        "heading": "Trusted By 100,000+ Women Like You"
+      }
+    },
+    "faq_XU9cLy": {
+      "type": "faq",
+      "blocks": {
+        "faq_ViiVit": {
+          "type": "faq",
+          "settings": {
+            "question": "What makes Sirense different from regular perfumes?",
+            "answer": "Our formula adapts uniquely to your individual chemistry, creating an exclusive signature. When applied, the pheromone molecules interact with your natural skin oils, pH levels, and body temperature, creating a personalized scent evolution. While everyone experiences the same initial fragrance notes, the formula develops distinctively on your skin - a perfect fusion of science and your natural biochemistry."
+          }
+        },
+        "faq_iWxJtG": {
+          "type": "faq",
+          "settings": {
+            "question": "How does Sirense create my unique scent?",
+            "answer": "Our formula adapts uniquely to your individual chemistry, creating an exclusive signature. When applied, the pheromone molecules interact with your natural skin oils, pH levels, and body temperature, creating a personalized scent evolution. While everyone experiences the same initial fragrance notes, the formula develops distinctively on your skin - a perfect fusion of science and your natural biochemistry."
+          }
+        },
+        "faq_KAt78b": {
+          "type": "faq",
+          "settings": {
+            "question": "How does Sirense ensure effectiveness for women?",
+            "answer": "Our formula adapts uniquely to your individual chemistry, creating an exclusive signature. When applied, the pheromone molecules interact with your natural skin oils, pH levels, and body temperature, creating a personalized scent evolution. While everyone experiences the same initial fragrance notes, the formula develops distinctively on your skin - a perfect fusion of science and your natural biochemistry."
+          }
+        },
+        "faq_zDfrQq": {
+          "type": "faq",
+          "settings": {
+            "question": "How are Sirense pheromones produced?",
+            "answer": "Our formula adapts uniquely to your individual chemistry, creating an exclusive signature. When applied, the pheromone molecules interact with your natural skin oils, pH levels, and body temperature, creating a personalized scent evolution. While everyone experiences the same initial fragrance notes, the formula develops distinctively on your skin - a perfect fusion of science and your natural biochemistry."
+          }
+        },
+        "faq_DELVRx": {
+          "type": "faq",
+          "settings": {
+            "question": "Is Sirense laboratory tested?",
+            "answer": "Our formula adapts uniquely to your individual chemistry, creating an exclusive signature. When applied, the pheromone molecules interact with your natural skin oils, pH levels, and body temperature, creating a personalized scent evolution. While everyone experiences the same initial fragrance notes, the formula develops distinctively on your skin - a perfect fusion of science and your natural biochemistry."
+          }
+        }
+      },
+      "block_order": [
+        "faq_ViiVit",
+        "faq_iWxJtG",
+        "faq_KAt78b",
+        "faq_zDfrQq",
+        "faq_DELVRx"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "title": "Frequently Asked Questions",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 24
+      }
+    }
+  },
+  "order": [
+    "related-products",
+    "main",
+    "1747838362adb454c2",
+    "text_with_image_FGUtkT",
+    "text_with_image_9YWhLF",
+    "image_slider_bFGMjg",
+    "testimonials_VrygMr",
+    "reviews_zm8rtm",
+    "faq_XU9cLy"
+  ]
+}

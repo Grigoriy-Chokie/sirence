@@ -1,0 +1,295 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "text_with_image_TrQjTd": {
+      "type": "banner-text-with-image",
+      "blocks": {
+        "block_MbEFR8": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Container.svg"
+          }
+        },
+        "block_wnENRz": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group.svg"
+          }
+        },
+        "block_36bxU3": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/USA_Today__2020-01-29_1.svg"
+          }
+        },
+        "block_mAw877": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/marketwatch-logo_1.svg"
+          }
+        }
+      },
+      "block_order": [
+        "block_MbEFR8",
+        "block_wnENRz",
+        "block_36bxU3",
+        "block_mAw877"
+      ],
+      "settings": {
+        "color_scheme": "scheme-4",
+        "image": "shopify:\/\/shop_images\/Adobe_Express_-_file_2_11.png",
+        "layout": "text_first",
+        "heading": "<p>Scientifically Designed For Attraction</p>",
+        "text": "<p>Turn heads and unleash your natural confidence with our pheromone-powered molecule fragrances.<\/p>",
+        "button_text": "Shop Now",
+        "button_url": "shopify:\/\/products\/sirense-attraction-elixir-20-ml-0-7-fl-oz",
+        "bottom_text": "<p><strong>30-Day<\/strong> Money-back Guarantee</p>",
+        "rating_text": "Over 250,000 Happy Customers",
+        "padding_top": 40,
+        "padding_bottom": 36,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "image_with_list_ETYRfN": {
+      "type": "image-with-list",
+      "blocks": {
+        "list_item_etwRwW": {
+          "type": "list-item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Frame_dd2c21fe-cbed-46ff-92c8-6d290e90eafb.svg",
+            "title": "The Primal Response",
+            "text": "Within seconds, Sirense activates deep attraction signals, bypassing conscious thought. Like an invisible force field speaking directly to his instincts"
+          }
+        },
+        "list_item_zBEram": {
+          "type": "list-item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Frame-1_2f36823f-303a-424f-83c9-d4444d401bf1.svg",
+            "title": "Neurological response",
+            "text": "Our formula targets the brain's emotional center, triggering instant biological responses. He won't know why he's drawn to you - he'll just know he can't look away"
+          }
+        },
+        "list_item_pKFd8U": {
+          "type": "list-item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Frame-2_8a2d33d0-0c1e-4f0b-87aa-9ec1247cc533.svg",
+            "title": "Seduction",
+            "text": "Unlike ordinary fragrances, Sirense works on a biological level, creating genuine attraction that builds with every interaction"
+          }
+        }
+      },
+      "block_order": [
+        "list_item_etwRwW",
+        "list_item_zBEram",
+        "list_item_pKFd8U"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_mobile": 24,
+        "padding_bottom_mobile": 48,
+        "image": "shopify:\/\/shop_images\/e-com2_edit_2.webp",
+        "video": "shopify:\/\/files\/videos\/c136def2452e4a75971fa829af0013c8.mp4",
+        "autoplay": false,
+        "muted": false,
+        "loop": true,
+        "controls": false,
+        "layout": "text_first",
+        "title": "What Are Pheromones?",
+        "subtitle": "Nature's secret language of attraction - invisible molecular messengers that create instant connection. We've captured this phenomenon in its most potent form, delivering science-backed attraction in every drop."
+      }
+    },
+    "text_with_image_zA3JQY": {
+      "type": "text-with-image",
+      "blocks": {
+        "list_PKwx37": {
+          "type": "list",
+          "settings": {
+            "subtitle": "",
+            "text_1": "Precisely calibrated formula",
+            "text_2": "Concentrated active pheromones",
+            "text_3": "Quality-assured production",
+            "text_4": "8+ hours of effectiveness",
+            "text_5": "",
+            "text_6": "",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "list_PKwx37"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "card_color_scheme": "scheme-3",
+        "padding_top": 60,
+        "padding_bottom": 20,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 16,
+        "image": "shopify:\/\/shop_images\/2_1_1.webp",
+        "layout": "text_first",
+        "title": "The Luxury of Dual Benefits",
+        "heading": "Laboratory Excellence",
+        "richtext": ""
+      }
+    },
+    "text_with_image_jQCMgm": {
+      "type": "text-with-image",
+      "blocks": {
+        "list_Ymp3HL": {
+          "type": "list",
+          "settings": {
+            "subtitle": "An irresistible blend of",
+            "text_1": "Fresh, sun-ripened strawberries",
+            "text_2": "Silky whipped vanilla cream",
+            "text_3": "Cloud-soft marshmallow embrace",
+            "text_4": "",
+            "text_5": "",
+            "text_6": "",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "list_Ymp3HL"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "card_color_scheme": "scheme-3",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 24,
+        "image": "shopify:\/\/shop_images\/1.jpg",
+        "layout": "image_first",
+        "title": "",
+        "heading": "A Sweet Symphony of Desire",
+        "richtext": ""
+      }
+    },
+    "list_with_icons_NFXwen": {
+      "type": "list-with-icons",
+      "blocks": {
+        "icon_with_text_AK3LyA": {
+          "type": "icon-with-text",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Frame.svg",
+            "title": "Your Unique Signature",
+            "text": "Each application creates a scent that's exclusively yours"
+          }
+        },
+        "icon_with_text_AKUDGi": {
+          "type": "icon-with-text",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Frame-1.svg",
+            "title": "Proven Performance",
+            "text": "Laboratory-verified results in real-world scenarios"
+          }
+        },
+        "icon_with_text_3yJGaA": {
+          "type": "icon-with-text",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Frame-2.svg",
+            "title": "Premium Experience",
+            "text": "Just a few drops unlock hours of magnetic presence"
+          }
+        },
+        "icon_with_text_djnNin": {
+          "type": "icon-with-text",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Frame-3.svg",
+            "title": "Lasting Confidence",
+            "text": "Your secret weapon for unforgettable impressions"
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_AK3LyA",
+        "icon_with_text_AKUDGi",
+        "icon_with_text_3yJGaA",
+        "icon_with_text_djnNin"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_mobile": 24,
+        "padding_bottom_mobile": 24,
+        "title": "The Sirense Promise"
+      }
+    },
+    "faq_XU9cLy": {
+      "type": "faq",
+      "blocks": {
+        "faq_ViiVit": {
+          "type": "faq",
+          "settings": {
+            "question": "What makes Sirense different from regular perfumes?",
+            "answer": "Our formula adapts uniquely to your individual chemistry, creating an exclusive signature. When applied, the pheromone molecules interact with your natural skin oils, pH levels, and body temperature, creating a personalized scent evolution. While everyone experiences the same initial fragrance notes, the formula develops distinctively on your skin - a perfect fusion of science and your natural biochemistry."
+          }
+        },
+        "faq_iWxJtG": {
+          "type": "faq",
+          "settings": {
+            "question": "How does Sirense create my unique scent?",
+            "answer": "Our formula adapts uniquely to your individual chemistry, creating an exclusive signature. When applied, the pheromone molecules interact with your natural skin oils, pH levels, and body temperature, creating a personalized scent evolution. While everyone experiences the same initial fragrance notes, the formula develops distinctively on your skin - a perfect fusion of science and your natural biochemistry."
+          }
+        },
+        "faq_KAt78b": {
+          "type": "faq",
+          "settings": {
+            "question": "How does Sirense ensure effectiveness for women?",
+            "answer": "Our formula adapts uniquely to your individual chemistry, creating an exclusive signature. When applied, the pheromone molecules interact with your natural skin oils, pH levels, and body temperature, creating a personalized scent evolution. While everyone experiences the same initial fragrance notes, the formula develops distinctively on your skin - a perfect fusion of science and your natural biochemistry."
+          }
+        },
+        "faq_zDfrQq": {
+          "type": "faq",
+          "settings": {
+            "question": "How are Sirense pheromones produced?",
+            "answer": "Our formula adapts uniquely to your individual chemistry, creating an exclusive signature. When applied, the pheromone molecules interact with your natural skin oils, pH levels, and body temperature, creating a personalized scent evolution. While everyone experiences the same initial fragrance notes, the formula develops distinctively on your skin - a perfect fusion of science and your natural biochemistry."
+          }
+        },
+        "faq_DELVRx": {
+          "type": "faq",
+          "settings": {
+            "question": "Is Sirense laboratory tested?",
+            "answer": "Our formula adapts uniquely to your individual chemistry, creating an exclusive signature. When applied, the pheromone molecules interact with your natural skin oils, pH levels, and body temperature, creating a personalized scent evolution. While everyone experiences the same initial fragrance notes, the formula develops distinctively on your skin - a perfect fusion of science and your natural biochemistry."
+          }
+        }
+      },
+      "block_order": [
+        "faq_ViiVit",
+        "faq_iWxJtG",
+        "faq_KAt78b",
+        "faq_zDfrQq",
+        "faq_DELVRx"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "title": "Frequently Asked Questions",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_mobile": 24,
+        "padding_bottom_mobile": 24
+      }
+    }
+  },
+  "order": [
+    "text_with_image_TrQjTd",
+    "image_with_list_ETYRfN",
+    "text_with_image_zA3JQY",
+    "text_with_image_jQCMgm",
+    "list_with_icons_NFXwen",
+    "faq_XU9cLy"
+  ]
+}

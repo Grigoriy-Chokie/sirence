@@ -1,0 +1,42 @@
+{% comment %}
+  Renders a running line (marquee). CSS-only solution.
+
+  Accepts:
+  - content: {Any} Inner content of running lines defined by {% capture content %} tag.
+  - duration: {Number} Duration of animation in seconds. (optional)
+
+  Usage:
+  Create variable with inner content:
+  {% capture content %}
+    {% for i in (0..5) %}
+      <div>
+        Some text...
+      </div>
+    {% endfor %}
+  {% endcapture %}
+
+  Render snippet:
+  {% render 'running-line',
+    content: content,
+    duration: 15
+  %}
+{% endcomment %}
+
+{% liquid
+  if content == blank
+    break
+  endif
+
+  assign duration = duration | default: 30
+%}
+
+
+<div style="--animation-duration: {{- duration -}}s" class="running-line">
+  <div class="running-line__wrapper">
+    {% for i in (1..2) %}
+      <div class="running-line__item">
+        {{ content }}
+      </div>
+    {% endfor %}
+  </div>
+</div>
