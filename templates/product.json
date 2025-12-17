@@ -39,6 +39,21 @@
             "text_style": "uppercase"
           }
         },
+        "loox_reviews_loox_rating_3pVRLT": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "[rating]/5 ([count] reviews)",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": true,
+            "emptyRatingWidget": false
+          }
+        },
         "title": {
           "type": "title",
           "settings": {}
@@ -136,6 +151,7 @@
           "settings": {
             "question": "Product details",
             "answer": "<p>Pheromone-Infused Oil Blend | 0.3 fl oz (10 ml)</p><p>Fragrance Family: Floral Oriental</p><p>Scent Profile: Warm amber base with subtle vanilla and jasmine accents</p><p>Smell description: Our formula adapts to your body chemistry, creating a unique sensual scent—light and airy or spicy and intense, with a slightly sweet, inviting touch—that draws desire effortlessly. It layers seamlessly with your favorite perfume, working with your natural pheromones to reveal your true, irresistible essence.</p>",
+            "show_badges": false,
             "icon": "heart"
           }
         },
@@ -144,6 +160,7 @@
           "settings": {
             "question": "How it works",
             "answer": "<p>Our oil integrates with your body's natural chemistry, enhancing your own scent through pheromone compounds that replicate human signals. It adjusts to your skin's pH and unique biology, forming a custom fragrance that triggers olfactory responses in the brain—signaling attractiveness for elevated presence and real connections that amplify how others perceive your innate allure.</p>",
+            "show_badges": false,
             "icon": "star"
           }
         },
@@ -152,6 +169,7 @@
           "settings": {
             "question": "How to use",
             "answer": "<p>Roll on 2-3 swipes of our oil to your wrists, behind the ears, neck, and inner elbows—focusing on pulse points where body heat amplifies the scent. Gently rub together until fully absorbed for optimal blending with your skin. </p><p>Safety Disclaimer: If you experience unwanted or unsafe attention while using our Pheromone-Infused Oil Blend, discontinue use immediately and prioritize your safety. We're here to support positive experiences—contact us if needed.</p>",
+            "show_badges": false,
             "icon": "question_mark"
           }
         },
@@ -160,6 +178,7 @@
           "settings": {
             "question": "Shipping",
             "answer": "",
+            "show_badges": false,
             "icon": "truck"
           }
         },
@@ -168,6 +187,7 @@
           "settings": {
             "question": "Return and refund policy",
             "answer": "<p>We offer a 30-day money-back guarantee on our Pheromone-Infused Oil Blend, commencing upon receipt of the product. Should you be unsatisfied for any reason, please contact us at your convenience, and we will promptly process a full refund or facilitate an exchange, with no questions asked.</p>",
+            "show_badges": false,
             "icon": "price_tag"
           }
         },
@@ -181,6 +201,7 @@
       },
       "block_order": [
         "vendor",
+        "loox_reviews_loox_rating_3pVRLT",
         "title",
         "price",
         "variant_picker",
@@ -213,7 +234,7 @@
         "enable_video_looping": false,
         "padding_top": 40,
         "padding_bottom": 40,
-        "padding_top_mobile": 20,
+        "padding_top_mobile": 0,
         "padding_bottom_mobile": 40
       }
     },

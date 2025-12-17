@@ -339,9 +339,14 @@ a.product__text {
   display: none;
 }
 
+.product__info-container {
+  padding-top: 32px;
+}
+
 @media screen and (min-width: 750px) {
   .product__info-container {
     max-width: 60rem;
+    padding-top: 0px;
   }
 
   .product__info-container .price--on-sale .price-item--regular {
@@ -483,6 +488,10 @@ a.product__text {
     margin-left: -2.5rem;
     margin-bottom: 3rem;
     width: calc(100% + 4rem);
+  }
+
+  .product__text ul li {
+    font-size: 15px;
   }
 
   .product__media-wrapper slider-component {
@@ -997,15 +1006,15 @@ a.product__text {
 
   .product__title h1{
     font-weight: 700;
-    font-size: 24px;
-    margin-top: 24px;
+    font-size: 30px;
+    margin-top: 12px;
     line-height: 140%;
     letter-spacing: 0.22px;
   }
 
   .product__collapse-button,
   .product__description{
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 0.28px;
     line-height: 140%;
   }
@@ -1646,9 +1655,13 @@ a.product__text {
   }
 
   .product__quantity-box:has(input:checked) label span {
-    border: 2px solid #000;
     width: 18px;
     height: 18px;
+  }
+
+  .quantity-box__text__badge {
+    padding: 8px;
+    font-size: 12px;
   }
 
   .product__quantity-box:has(input:checked) label span:after {
@@ -1659,6 +1672,10 @@ a.product__text {
   .quantity-box__subtitle{
     font-size: 12px;
     line-height: 140%;
+  }
+
+  .quantity-box__subtitle svg {
+    width: 12px;
   }
 
   .product-form__submit {

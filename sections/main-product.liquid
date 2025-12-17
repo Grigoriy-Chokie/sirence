@@ -731,9 +731,9 @@
                     <div class="quantity-box__text">
                       <div class="quantity-box__title h5">
                         {{ title }}
-                        <div class="medium-hide large-up-hide">
+                        {% comment %} <div class="medium-hide large-up-hide">
                           {{ discount_badge }}
-                        </div>
+                        </div> {% endcomment %}
                       </div>
                       {% if subtitle != blank %}
                         <div class="quantity-box__subtitle">
@@ -742,7 +742,7 @@
                         </div>
                       {% endif %}
                     </div>
-                    <div class="small-hide">
+                    <div class="">
                       {{ discount_badge }}
                     </div>
                     <div class="quantity-box__text__price">
