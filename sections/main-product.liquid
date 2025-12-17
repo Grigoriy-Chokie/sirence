@@ -237,33 +237,35 @@
                   </div>
                   <div class="question__answear">
                     <div class="text--small">{{ block.settings.answer }}</div>
-                    {% liquid
-                      assign faq_badges_metafield = product.metafields.custom.faq_badges | default: product.metafields.custom.benefits
-                      if faq_badges_metafield == blank
-                        for metafield in product.metafields.custom
-                          if metafield.type == 'list.metaobject' and metafield.value != blank
-                            assign faq_badges_metafield = metafield
-                            break
-                          endif
-                        endfor
-                      endif
-                      if faq_badges_metafield != blank
-                        assign faq_badges = faq_badges_metafield.value
-                      endif
-                    %}
-                    {% if faq_badges != blank %}
-                      <div class="faq-answer-badges">
-                        {% for badge in faq_badges %}
-                          <div class="faq-answer-badge">
-                            {% if badge.heading != blank %}
-                              <div class="faq-answer-badge__title">{{ badge.heading }}</div>
-                            {% endif %}
-                            {% if badge.subheading != blank %}
-                              <div class="faq-answer-badge__subtitle">{{ badge.subheading }}</div>
-                            {% endif %}
-                          </div>
-                        {% endfor %}
-                      </div>
+                    {% if block.settings.show_badges %}
+                      {% liquid
+                        assign faq_badges_metafield = product.metafields.custom.faq_badges | default: product.metafields.custom.benefits
+                        if faq_badges_metafield == blank
+                          for metafield in product.metafields.custom
+                            if metafield.type == 'list.metaobject' and metafield.value != blank
+                              assign faq_badges_metafield = metafield
+                              break
+                            endif
+                          endfor
+                        endif
+                        if faq_badges_metafield != blank
+                          assign faq_badges = faq_badges_metafield.value
+                        endif
+                      %}
+                      {% if faq_badges != blank %}
+                        <div class="faq-answer-badges">
+                          {% for badge in faq_badges %}
+                            <div class="faq-answer-badge">
+                              {% if badge.heading != blank %}
+                                <div class="faq-answer-badge__title">{{ badge.heading }}</div>
+                              {% endif %}
+                              {% if badge.subheading != blank %}
+                                <div class="faq-answer-badge__subtitle">{{ badge.subheading }}</div>
+                              {% endif %}
+                            </div>
+                          {% endfor %}
+                        </div>
+                      {% endif %}
                     {% endif %}
                   </div>
                 </div>
@@ -1069,6 +1071,12 @@
           "type": "richtext",
           "id": "answer",
           "label": "Answer"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_badges",
+          "label": "Show metafield badges",
+          "default": false
         },
         {
           "type": "select",
